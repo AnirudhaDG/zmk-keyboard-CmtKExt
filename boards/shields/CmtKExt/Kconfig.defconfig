@@ -1,0 +1,7 @@
+if SHIELD_CmtKExt
+config ZMK_KEYBOARD_NAME
+    default "CmtKExt"
+config ZMK_USB
+    default y
+endif
+

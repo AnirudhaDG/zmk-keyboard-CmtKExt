@@ -1,0 +1,9 @@
+file_format: "1"
+id: CmtKExt
+name: "CmtKExt"
+type: shield
+url: "https://mecha.so/comet"
+requires: [frdm_mcxa153]  # Your NXP board name
+features:
+  - keys
+
