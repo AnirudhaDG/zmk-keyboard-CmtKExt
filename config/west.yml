@@ -1,0 +1,14 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: anirudhadg
+      url-base: https://github.com/anirudhadg
+  projects:
+    - name: zmk
+      remote: anirudhadg
+      revision: main
+      import:
+        file: app/west.yml
+  self:
+    path: config
